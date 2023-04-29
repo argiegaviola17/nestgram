@@ -26,7 +26,7 @@
   "scripts": {
     "dev": "nodemon test/test.ts",
     "prepare": "npm run build",
-    "build": "rm -rf dist && tsc"
+    "build": "del /q /s dist & tsc"
   },
   "devDependencies": {
     "@types/axios": "^0.14.0",
